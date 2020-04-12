@@ -24,4 +24,4 @@ def sendemail(subject,body,recipients):
     finally:
         s.quit()
 
-sendemail("Testing","Demo Message")
+sendemail("Testing","Demo Message","email_address")
